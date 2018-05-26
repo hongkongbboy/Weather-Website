@@ -3,7 +3,7 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <title>Comparison</title>
+        <title>Max Temperature</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <!-- Bootstrap CSS -->
@@ -12,7 +12,7 @@
     </head>
     <body>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand mx-5 boxed" id="text" href="index.html">Lattitude</a>
+                    <a class="navbar-brand mx-5 boxed" href="index.html">Lattitude</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -40,42 +40,23 @@
                   </nav>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h1>Comparison: Latitude vs X</h1>
+                <div class="col-sm-12 col-md-8">
+                    <h1>Max Temperature</h1>
                     <hr>
-                    <p>Click any plot to get an in-depth analysis.</p>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <h3 class="text-center">vs. Max Temperature</h3>
-                                <a href="Visualization 1.html">
-                                    <img class="images2 px-1 mb-3" src="images/output_9_0.png" alt="City Latitude vs. Max Temperature">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <h3 class="text-center">vs. Humidity</h3>
-                                <a href="Visualization 2.html">
-                                    <img class="images2 px-1 mb-3" src="images/output_11_0.png" alt="City Latitude vs. Humidity">    
-                                </a>
-                            </div>
-                        </div>
+                    <img class="image_adjust_visual px-3 py-3" src="images/output_9_0.png" alt="City Latitude vs. Max Temperature">
+                    <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h1>Visualizations</h1>
+                    <hr>
+                    <div>
+                        <img class="select images px-1 mb-3" src="images/output_9_0.png" alt="City Latitude vs. Max Temperature" align="left">
+                        <img class="images px-1 mb-3" src="images/output_11_0.png" alt="City Latitude vs. Humidity" align="right">
                     </div>
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3 class="text-center">vs. Cloudiness</h3>
-                                    <a href="Visualization 3.html">
-                                        <img class="images2 px-1" src="images/output_13_0.png" alt="City Latitude vs. Cloudiness"> 
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <h3 class="text-center">vs. Wind Speed</h3>
-                                    <a href="Visualization 4.html">
-                                        <img class="images2 px-1" src="images/output_15_0.png" alt="City Latitude vs. Wind Speed">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                        <img class="images px-1" src="images/output_13_0.png" alt="City Latitude vs. Cloudiness" align="left">
+                        <img class="images px-1" src="images/output_15_0.png" alt="City Latitude vs. Wind Speed" align="right">                        
+                    </div>
                 </div>
             </div>
         </div>
